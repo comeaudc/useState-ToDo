@@ -1,0 +1,45 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+#editForm{
+  display: flex;
+  flex-direction: row;
+}
+#textIn{
+  width: 100%;
+}
+ul{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label{
+  display: flex;
+  align-items: center;
+}
+
+p{
+  margin: 0;
+}
